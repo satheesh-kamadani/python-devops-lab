@@ -1,3 +1,4 @@
+"""Lambda function to delete the stale ebs snapshots which are not assosicated with instances"""
 import boto3
 
 def lambda_handler(event, context):
